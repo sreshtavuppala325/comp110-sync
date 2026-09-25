@@ -7,5 +7,5 @@ RACING_COLOR: str = "#FEDD00"
 
 
 def control(sensors: RobotSensors) -> RobotCommand:
-    """This demo is all gas, no steering."""
+    """Minimally viable self-driving controller"""
     return RobotCommand(throttle=1.0, steer=0.0)
